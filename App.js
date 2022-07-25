@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import MapView, {
   Callout,
   Circle,
@@ -16,10 +16,27 @@ import {
 } from "react-native";
 import { locations } from "./Locations.js";
 import CustomMarker from "./CustomMarker.js";
+import { dataBase } from "./api/base.js";
 
 export default function App() {
   const [Destination, setDestination] = useState("  ");
-  // const [marker, setMarker] = useState({});
+  const [parkingLots, setParkingLots] = useState();
+  useEffect(() => {
+    fetch(
+      "https://api.airtable.com/v0/app6PE5rMIkIIqPNZ/Projects?view=Grid%20view",
+      {
+        headers: { Authorization: "Bearer keyjbCfsSdhIhQFsh" },
+      }
+    )
+      .then((res) => {
+        return res.json(); // Promise gaekchae
+      })
+      .then((json) => {
+        setParkingLots(json.records);
+        console.log(json); // prints json화된 data from server
+      })
+      .catch((error) => console.log(error));
+  }, []);
 
   return (
     <View style={styles.container}>
