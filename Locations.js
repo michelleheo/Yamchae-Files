@@ -1,9 +1,9 @@
 export const locations = [
   // 강남구
   {
-    title: "역삼1 문화센터 주차장",
-    latitude: 37.545123,
-    longitude: 127.001674,
+    title: "타워 730 주차장",
+    latitude: 37.51042,
+    longitude: 127.079099,
     weight: 13,
     image:
       "https://icones.pro/wp-content/uploads/2021/03/icone-de-voiture-symbole-png-orange.png",
@@ -11,71 +11,71 @@ export const locations = [
       "https://mblogthumb-phinf.pstatic.net/MjAyMTAzMTFfMTcg/MDAxNjE1NDUyNDM2ODUz.663q1vNyVV5Mp5nf9FALRl3-MO2rRMGy5CG44of5JmAg.TZN0VSS5RKrlnI3n-EQPO9jHK23QFdRfgr-C8wTpupEg.JPEG.pybboss/20210310%EF%BC%BF163902.jpg?type=w800",
   },
   {
-    title: "영동대로96길 공영노상 주차장",
-    latitude: 37.513741,
-    longitude: 127.05545,
+    title: "교통공원길 공영주차장",
+    latitude: 37.514836,
+    longitude: 127.101562,
     weight: 13,
     image:
       "https://icones.pro/wp-content/uploads/2021/03/icone-de-voiture-symbole-png-orange.png",
     urlImg: "https://images.app.goo.gl/dQZtRsuNoHVT2Xj97",
   },
   {
-    title: "(주)대윤기업",
-    latitude: 37.513742,
-    longitude: 127.055449,
+    title: "한국광고문화회관 주차장",
+    latitude: 37.515434,
+    longitude: 127.100281,
     weight: 13,
     image:
       "https://icones.pro/wp-content/uploads/2021/03/icone-de-voiture-symbole-png-orange.png",
     urlImg: "https://images.app.goo.gl/EQHTKMFRYqqgUaeq6",
   },
   {
-    title: "삼성1 문화센터 공영 주차장",
-    latitude: 37.514371,
-    longitude: 127.062675,
+    title: "잠실 삼성 SDS 주차장",
+    latitude: 37.516041,
+    longitude: 127.100922,
     weight: 13,
     image:
       "https://icones.pro/wp-content/uploads/2021/03/icone-de-voiture-symbole-png-orange.png",
     urlImg: "https://images.app.goo.gl/6vCyPge5HoF8fqu39",
   },
   {
-    title: "영동대로106길 공영노상 주차장",
-    latitude: 37.513378,
-    longitude: 127.061812,
+    title: "롯데 캐슬 플라자 주차장",
+    latitude: 37.514652,
+    longitude: 127.101288,
     weight: 13,
     image:
       "https://icones.pro/wp-content/uploads/2021/03/icone-de-voiture-symbole-png-orange.png",
     urlImg: "https://images.app.goo.gl/zcQGUEK9JvMazgJc7",
   },
   {
-    title: "영동대로85길 공영노상주차장",
-    latitude: 37.507138,
-    longitude: 127.061774,
+    title: "롯데 캐슬 플라자 주차장 들어가기전 두자리!",
+    latitude: 37.514835,
+    longitude: 127.101562,
     weight: 13,
     image:
       "https://icones.pro/wp-content/uploads/2021/03/icone-de-voiture-symbole-png-orange.png",
     urlImg: "https://images.app.goo.gl/LPt7piC5EWyQYBtL6",
   },
   {
-    title: "남부순환로397길 공영노상주차장",
-    latitude: 37.493138,
-    longitude: 127.058386,
+    title: "더 베네치아 웨딩 주차장",
+    latitude: 37.515293,
+    longitude: 127.102791,
     weight: 13,
     image:
       "https://icones.pro/wp-content/uploads/2021/03/icone-de-voiture-symbole-png-orange.png",
   },
   {
-    title: "도산대로45길 공영노상주차장",
-    latitude: 37.523339,
-    longitude: 127.035841,
+    title: "한신코아 주차장",
+    latitude: 37.515903,
+    longitude: 127.103951,
     weight: 13,
     image:
       "https://icones.pro/wp-content/uploads/2021/03/icone-de-voiture-symbole-png-orange.png",
     urlImg: "https://images.app.goo.gl/kvbX5QgMdEtgMvg26",
   },
   {
-    title: "강남대로150길 공영노상주차장",
-    latitude: 37.515719,
-    longitude: 127.020414,
+    title: "교통공원길 공영주차장",
+    latitude: 37.515903,
+    longitude: 127.103951,
     weight: 13,
     image:
       "https://icones.pro/wp-content/uploads/2021/03/icone-de-voiture-symbole-png-orange.png",
